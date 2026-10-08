@@ -55,3 +55,4 @@ Status legend: `[ ]` todo · `[~]` in progress · `[x]` done
 - No automated browser/E2E tests — visual QA is manual (`npm run dev`).
 - Refresh resets to the Welcome screen (no URL routing — by design).
 - Google Fonts require network; system fallbacks apply offline.
+ 
