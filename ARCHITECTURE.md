@@ -102,7 +102,8 @@ Dates/copy are fixed sample strings — no `Date.now()` logic, no formatting lib
 ```bash
 npm install
 npm run dev      # local dev server
-npm run build    # tsc --noEmit + vite build  → must pass before sharing
+npm run build    # vite build (production bundle)  → must pass before sharing
+npx tsc --noEmit # type-check only (not part of the build script)
 npm run preview  # serve the production build
 ```
 
